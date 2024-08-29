@@ -13,6 +13,7 @@ alias mi='micro'
 alias zel='zellij'
 alias h='helix'
 alias ls='eza'
+alias la='eza -al'
 
 # EXPORT PATHS
 export EDITOR=nvim
