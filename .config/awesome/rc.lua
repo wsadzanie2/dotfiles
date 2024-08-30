@@ -39,6 +39,8 @@ local calendar_widget = require('calendar-widget.calendar')
 local logout_menu_widget = require('logout-menu-widget.logout-menu')
 
 
+--setup screen
+awful.spawn.with_shell("bash /home/pawel/.screenlayout/mylayout.sh")
 
 
 -- {{{ Error handling
@@ -678,7 +680,6 @@ end)
 
 --
 -- Autostart Applications
-awful.spawn.with_shell("bash /home/pawel/.screenlayout/mylayout.sh")
 -- awful.spawn.with_shell("yakuake")
 awful.spawn.with_shell("setxkbmap pl")
 awful.spawn.with_shell("picom --animations -b")
