@@ -139,8 +139,10 @@ screen.connect_signal("request::wallpaper", function(s)
         screen = s,
         widget = {
             {
-                --                image     = beautiful.wallpaper,
-                image     = "/usr/share/wallpapers/ChineseWallpaper.jpg",
+                -- image     = beautiful.wallpaper,
+                -- image     = "/usr/share/wallpapers/ChineseWallpaper.jpg",
+                image     = "/home/pawel/.config/awesome/themes/test/background.jpg",
+
                 upscale   = true,
                 downscale = true,
                 widget    = wibox.widget.imagebox,
