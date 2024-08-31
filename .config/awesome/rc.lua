@@ -57,7 +57,8 @@ end)
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, font and wallpapers.
-beautiful.init(gears.filesystem.get_themes_dir() .. "test/theme.lua")
+-- beautiful.init(gears.filesystem.get_themes_dir() .. "test/theme.lua")
+beautiful.init("/home/pawel/.config/awesome/themes/test/theme.lua")
 -- beautiful.init(gears.filesystem.get_themes_dir() .. "xresources/theme.lua")
 
 function LaunchRofi()
