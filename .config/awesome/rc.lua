@@ -41,7 +41,8 @@ local logout_menu_widget = require('logout-menu-widget.logout-menu')
 
 --setup screen
 -- awful.spawn.with_shell("bash /home/pawel/.screenlayout/mylayout.sh")
-
+--keyboard layout
+awful.spawn.with_shell("setxkbmap pl")
 
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
@@ -154,6 +155,9 @@ screen.connect_signal("request::wallpaper", function(s)
         }
     }
 end)
+
+--WALLPAPER STUFF
+awful.spawn.with_shell("variety -n")
 -- }}}
 
 -- {{{ Wibar
@@ -254,7 +258,7 @@ screen.connect_signal("request::desktop_decoration", function(s)
                 layout = wibox.layout.fixed.horizontal,
                 -- mykeyboardlayout,
                 modalawesome.sequence,
-                -- wibox.widget.systray(),
+                wibox.widget.systray(),
                 logout_menu_widget{
                     onlock = function ()
                         awful.spawn.with_shell('betterlockscreen -l')
@@ -684,7 +688,6 @@ end)
 --
 -- Autostart Applications
 -- awful.spawn.with_shell("yakuake")
-awful.spawn.with_shell("setxkbmap pl")
 awful.spawn.with_shell("picom --animations -b")
 --awful.spawn.with_shell("picom")
 --awful.spawn.once("fastcompmgr")
