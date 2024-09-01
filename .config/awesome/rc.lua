@@ -304,8 +304,6 @@ end
 awful.keyboard.append_global_keybindings({
     awful.key({ modkey,           }, "s",      hotkeys_popup.show_help,
         {description="show help", group="awesome"}),
-    awful.key({ modkey,           }, "w", function () mymainmenu:show() end,
-        {description = "show main menu", group = "awesome"}),
     awful.key({ modkey, "Control" }, "r", awesome.restart,
         {description = "reload awesome", group = "awesome"}),
     awful.key({ modkey, "Shift"   }, "q", awesome.quit,
@@ -395,6 +393,8 @@ awful.keyboard.append_global_keybindings({
             end
         end,
         {description = "restore minimized", group = "client"}),
+    awful.key({ modkey,           }, "w", function () awful.spawn.with_shell('variety -n') end,
+        {description = "change wallpaper", group = "screen"}),
 })
 
 -- Layout related keybindings

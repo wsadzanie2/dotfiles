@@ -1,4 +1,10 @@
 0
+/usr/share/wallpapers/wallpaperflare.com_wallpaper.jpg
+/usr/share/wallpapers/0195.jpg
+/usr/share/wallpapers/0067.jpg
+/usr/share/wallpapers/0106.jpg
+/usr/share/wallpapers/0036.jpg
+/usr/share/wallpapers/wallpaperflare.com_wallpaper(5).jpg
 /usr/share/wallpapers/0164.jpg
 /usr/share/wallpapers/0141.jpg
 /usr/share/wallpapers/0258.jpg
