@@ -240,6 +240,7 @@ screen.connect_signal("request::desktop_decoration", function(s)
     s.mywibox = awful.wibar {
         position = "top",
         screen   = s,
+        height   = 24,
         widget   = {
             layout = wibox.layout.align.horizontal,
             { -- Left widgets
@@ -252,7 +253,7 @@ screen.connect_signal("request::desktop_decoration", function(s)
             -- s.mytasklist, -- Middle widget
             wibox.container.margin(
                 mytextclock,
-                775,5,5,5
+                760,5,5,5
             ),
             { -- Right widgets
                 layout = wibox.layout.fixed.horizontal,
