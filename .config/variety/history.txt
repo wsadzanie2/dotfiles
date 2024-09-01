@@ -1,4 +1,11 @@
 0
+/usr/share/wallpapers/wallpaperflare.com_wallpaper.jpg
+/usr/share/wallpapers/0071.jpg
+/usr/share/wallpapers/0160.jpg
+/usr/share/wallpapers/0199.jpg
+/usr/share/wallpapers/0019.jpg
+/usr/share/wallpapers/0270.jpg
+/usr/share/wallpapers/0039.jpg
 /usr/share/wallpapers/0220.jpg
 /usr/share/wallpapers/0297.jpg
 /usr/share/wallpapers/0296.jpg
@@ -92,10 +99,3 @@
 /usr/share/wallpapers/0296.jpg
 /usr/share/wallpapers/0060.jpg
 /usr/share/wallpapers/0052.jpg
-/usr/share/wallpapers/0146.jpg
-/usr/share/wallpapers/0180.jpg
-/usr/share/wallpapers/Cool view.png
-/usr/share/wallpapers/0148.jpg
-/usr/share/wallpapers/0244.jpg
-/usr/share/wallpapers/0305.jpg
-/usr/share/wallpapers/0029.jpg
