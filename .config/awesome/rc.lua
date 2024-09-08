@@ -155,8 +155,7 @@ screen.connect_signal("request::wallpaper", function(s)
         }
     }
 end)
-
---WALLPAPER STUFF
+-- WALLPAPER STUFF
 awful.spawn.with_shell("variety -n")
 -- }}}
 
