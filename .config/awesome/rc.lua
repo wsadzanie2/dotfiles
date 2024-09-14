@@ -395,6 +395,8 @@ awful.keyboard.append_global_keybindings({
         {description = "restore minimized", group = "client"}),
     awful.key({ modkey,           }, "w", function () awful.spawn.with_shell('variety -n') end,
         {description = "change wallpaper", group = "screen"}),
+    awful.key({ modkey, "Shift"   }, "w", function () awful.spawn.with_shell('variety -p') end,
+        {description = "change wallpaper", group = "screen"}),
 })
 
 -- Layout related keybindings
