@@ -42,7 +42,6 @@ local logout_menu_widget = require('logout-menu-widget.logout-menu')
 --setup screen
 -- awful.spawn.with_shell("bash /home/pawel/.screenlayout/mylayout.sh")
 --keyboard layout
-awful.spawn.with_shell("setxkbmap pl")
 
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
