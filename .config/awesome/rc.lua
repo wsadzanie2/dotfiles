@@ -690,11 +690,12 @@ end)
 --
 -- Autostart Applications
 -- awful.spawn.with_shell("yakuake")
-awful.spawn.with_shell("picom --animations -b")
+-- awful.spawn.with_shell("picom --animations -b")
+awful.spawn.with_shell("bash ~/.config/awesome/autostart.sh")
 --awful.spawn.with_shell("picom")
 --awful.spawn.once("fastcompmgr")
-awful.spawn.with_shell("export QT_QPA_PLATFORMTHEME=qt5ct")
+-- awful.spawn.with_shell("export QT_QPA_PLATFORMTHEME=qt5ct")
 
-awful.spawn.with_shell('setxkbmap -option "caps:escape_shifted_capslock"')
+-- awful.spawn.with_shell('setxkbmap -option "caps:escape_shifted_capslock"')
 
-awful.spawn.with_shell("xidlehook --not-when-audio --not-when-fullscreen --timer 300 'betterlockscreen -l' ''")
+-- awful.spawn.with_shell("xidlehook --not-when-audio --not-when-fullscreen --timer 300 'betterlockscreen -l' ''")
