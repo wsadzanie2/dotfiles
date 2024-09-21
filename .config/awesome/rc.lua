@@ -21,7 +21,7 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 -- require("awful.hotkeys_popup.keys")
 
 -- custom keychords
-local modalawesome = require("modalawesome")
+-- local modalawesome = require("modalawesome")
 
 -- modalawesome.init{
 --   modkey       = "Mod4",
@@ -256,7 +256,7 @@ screen.connect_signal("request::desktop_decoration", function(s)
             { -- Right widgets
                 layout = wibox.layout.fixed.horizontal,
                 -- mykeyboardlayout,
-                modalawesome.sequence,
+                -- modalawesome.sequence,
                 wibox.widget.systray(),
                 logout_menu_widget{
                     onlock = function ()
