@@ -45,6 +45,20 @@ window#waybar {
 }
 
 #clock,
+#network {
+  background-color: #1e1e2e;
+  color: #89b4fa;
+  padding: 0.3rem 0.6rem;
+  margin: 0.4rem 0.25rem;
+  border-radius: 6px;
+}
+#battery {
+  background-color: #1e1e2e;
+  color: #89b4fa;
+  padding: 0.3rem 0.6rem;
+  margin: 0.4rem 0.25rem;
+  border-radius: 6px;
+}
 #pulseaudio,
 #custom-logo,
 #custom-power,
