@@ -1,291 +1,162 @@
-INFO: 2024-12-02 21:41:23,370: main() 'Using profile folder /home/pawel/.config/variety/'
-INFO: 2024-12-02 21:41:23,372: perform_upgrade() 'Last run version was 0.8.12 or earlier, current version is 0.8.12'
-INFO: 2024-12-02 21:41:23,481: process_command() 'Received command: ['-n']'
-INFO: 2024-12-02 21:41:23,482: start() 'Using data_path /usr/share/variety'
-INFO: 2024-12-02 21:41:23,482: load() 'Jumble loading'
-INFO: 2024-12-02 21:41:23,482: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.12/site-packages/variety/plugins/builtin/__init__.py'
-INFO: 2024-12-02 21:41:23,482: _walk_modules() 'Jumble loading module in GnomeDisplayModesPlugin from /usr/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/GnomeDisplayModesPlugin.py'
-INFO: 2024-12-02 21:41:23,482: load() 'Jumble found plugin class: <class 'GnomeDisplayModesPlugin.GnomeDisplayModesPlugin'>: {'name': 'GnomeDisplayModesPlugin', 'description': 'Display modes relying on the underlying desktop environment', 'version': '1.0', 'author': 'Peter Levi'}'
-INFO: 2024-12-02 21:41:23,483: _walk_modules() 'Jumble loading module in LegacyDisplayModesPlugin from /usr/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/LegacyDisplayModesPlugin.py'
-INFO: 2024-12-02 21:41:23,483: load() 'Jumble found plugin class: <class 'LegacyDisplayModesPlugin.LegacyDisplayModesPlugin'>: {'name': 'LegacyDisplayModesPlugin', 'description': 'Legacy display mode for compatibility with past Variety versions', 'version': '1.0', 'author': 'Peter Levi'}'
-INFO: 2024-12-02 21:41:23,483: _walk_modules() 'Jumble loading module in ResizingDisplayModesPlugin from /usr/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/ResizingDisplayModesPlugin.py'
-INFO: 2024-12-02 21:41:23,483: load() 'Jumble found plugin class: <class 'ResizingDisplayModesPlugin.ResizingDisplayModesPlugin'>: {'name': 'ResizingDisplayModesPlugin', 'description': 'Display modes that use image resizing within Variety', 'version': '1.0', 'author': 'Peter Levi'}'
-INFO: 2024-12-02 21:41:23,483: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/__init__.py'
-INFO: 2024-12-02 21:41:23,483: _walk_modules() 'Jumble loading module in APODDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/APODDownloader.py'
-INFO: 2024-12-02 21:41:23,485: load() 'Jumble found plugin class: <class 'APODDownloader.APODDownloader'>: {'name': 'APODDownloader', 'description': 'NASA Astro Pic of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-12-02 21:41:23,485: _walk_modules() 'Jumble loading module in ArtStationDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/ArtStationDownloader.py'
-INFO: 2024-12-02 21:41:23,485: _walk_modules() 'Jumble loading module in ArtStationSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/ArtStationSource.py'
-INFO: 2024-12-02 21:41:23,486: load() 'Jumble found plugin class: <class 'ArtStationSource.ArtStationSource'>: {'name': 'ArtStationSource', 'description': 'Configurable source for fetching images from ArtStation', 'author': 'Denis Gordeev', 'version': '0.1'}'
-INFO: 2024-12-02 21:41:23,486: _walk_modules() 'Jumble loading module in BingDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/BingDownloader.py'
-INFO: 2024-12-02 21:41:23,487: load() 'Jumble found plugin class: <class 'BingDownloader.BingDownloader'>: {'name': 'BingDownloader', 'description': 'Bing Photo of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-12-02 21:41:23,487: _walk_modules() 'Jumble loading module in EarthviewDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py'
-INFO: 2024-12-02 21:41:23,487: load() 'Jumble found plugin class: <class 'EarthviewDownloader.EarthviewDownloader'>: {'name': 'EarthviewDownloader', 'description': 'Google Earth View Wallpapers', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-12-02 21:41:23,487: _walk_modules() 'Jumble loading module in MediaRSSDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/MediaRSSDownloader.py'
-INFO: 2024-12-02 21:41:23,488: _walk_modules() 'Jumble loading module in MediaRSSSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/MediaRSSSource.py'
-INFO: 2024-12-02 21:41:23,488: load() 'Jumble found plugin class: <class 'MediaRSSSource.MediaRSSSource'>: {'name': 'MediaRSSSource', 'description': 'Configurable source for fetching images from MediaRSS feeds', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-12-02 21:41:23,488: _walk_modules() 'Jumble loading module in NationalGeographicDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/NationalGeographicDownloader.py'
-INFO: 2024-12-02 21:41:23,489: load() 'Jumble found plugin class: <class 'NationalGeographicDownloader.NationalGeographicDownloader'>: {'name': 'NationalGeographicDownloader', 'description': "National Geographic's photo of the day", 'author': 'Eric Rösch', 'version': '0.1'}'
-INFO: 2024-12-02 21:41:23,489: _walk_modules() 'Jumble loading module in RedditDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/RedditDownloader.py'
-INFO: 2024-12-02 21:41:23,489: _walk_modules() 'Jumble loading module in RedditSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/RedditSource.py'
-INFO: 2024-12-02 21:41:23,489: load() 'Jumble found plugin class: <class 'RedditSource.RedditSource'>: {'name': 'RedditSource', 'description': 'Configurable source for fetching images from Reddit', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-12-02 21:41:23,490: _walk_modules() 'Jumble loading module in UnsplashConfigurableSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/UnsplashConfigurableSource.py'
-INFO: 2024-12-02 21:41:23,490: load() 'Jumble found plugin class: <class 'UnsplashConfigurableSource.UnsplashConfigurableSource'>: {'name': 'UnsplashConfigurableSource', 'description': 'Configurable source for fetching photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-12-02 21:41:23,490: _walk_modules() 'Jumble loading module in UnsplashDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/UnsplashDownloader.py'
-INFO: 2024-12-02 21:41:23,491: load() 'Jumble found plugin class: <class 'UnsplashDownloader.UnsplashDownloader'>: {'name': 'UnsplashDownloader', 'description': 'High-resolution photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-12-02 21:41:23,491: _walk_modules() 'Jumble loading module in WallhavenDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/WallhavenDownloader.py'
-INFO: 2024-12-02 21:41:23,492: _walk_modules() 'Jumble loading module in WallhavenLegacyDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/WallhavenLegacyDownloader.py'
-INFO: 2024-12-02 21:41:23,492: _walk_modules() 'Jumble loading module in WallhavenSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/WallhavenSource.py'
-INFO: 2024-12-02 21:41:23,492: load() 'Jumble found plugin class: <class 'WallhavenSource.WallhavenSource'>: {'name': 'WallhavenSource', 'description': 'Configurable source for fetching images from Wallhaven.cc', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-12-02 21:41:23,492: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/__init__.py'
-INFO: 2024-12-02 21:41:23,492: _walk_modules() 'Jumble loading module in FortuneSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/quotes/FortuneSource.py'
-INFO: 2024-12-02 21:41:23,493: load() 'Jumble found plugin class: <class 'FortuneSource.FortuneSource'>: {'name': 'UNIX fortune program', 'description': 'Displays quotes using the UNIX fortune program. You may want to install additional fortune packs, e.g. fortunes-bofh-excuses.', 'author': 'Dan Jones', 'version': '0.1'}'
-INFO: 2024-12-02 21:41:23,493: _walk_modules() 'Jumble loading module in GoodreadsSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/quotes/GoodreadsSource.py'
-INFO: 2024-12-02 21:41:23,513: load() 'Jumble found plugin class: <class 'GoodreadsSource.GoodreadsSource'>: {'name': 'Goodreads', 'description': 'Fetches quotes from Goodreads.com', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-12-02 21:41:23,513: _walk_modules() 'Jumble loading module in LocalFilesSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/quotes/LocalFilesSource.py'
-INFO: 2024-12-02 21:41:23,514: load() 'Jumble found plugin class: <class 'LocalFilesSource.LocalFilesSource'>: {'name': 'Local text files', 'description': 'Displays quotes, defined in local text files.\nPut your own txt files in: ~/.config/variety/pluginconfig/quotes/.\nThe file format is:\n\nquote -- author\n.\nsecond quote -- another author\n.\netc...\n\nExample: http://rvelthuis.de/zips/quotes.txt', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-12-02 21:41:23,514: _walk_modules() 'Jumble loading module in QuotationsPageSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/quotes/QuotationsPageSource.py'
-INFO: 2024-12-02 21:41:23,514: load() 'Jumble found plugin class: <class 'QuotationsPageSource.QuotationsPageSource'>: {'name': 'TheQuotationsPage.com', 'description': 'Fetches quotes from TheQuotationsPage.com', 'author': 'Peter Levi', 'version': '0.1'}'
-INFO: 2024-12-02 21:41:23,514: _walk_modules() 'Jumble loading module in UrbanDictionarySource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/quotes/UrbanDictionarySource.py'
-INFO: 2024-12-02 21:41:23,514: load() 'Jumble found plugin class: <class 'UrbanDictionarySource.UrbanDictionarySource'>: {'name': 'Urban Dictionary', 'description': 'Displays definitions from Urban Dictionary', 'author': 'James Miller', 'version': '0.1'}'
-INFO: 2024-12-02 21:41:23,515: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.12/site-packages/variety/plugins/builtin/quotes/__init__.py'
-INFO: 2024-12-02 21:41:23,523: reload_config() 'Creating new downloader for type apod, location NASA's Astronomy Picture of the Day'
-INFO: 2024-12-02 21:41:23,523: reload_config() 'Creating new downloader for type bing, location Bing Photo of the Day'
-INFO: 2024-12-02 21:41:23,523: reload_config() 'Creating new downloader for type earthview, location Google Earth View Wallpapers'
-INFO: 2024-12-02 21:41:23,523: reload_config() 'Creating new downloader for type natgeo, location National Geographic's photo of the day'
-INFO: 2024-12-02 21:41:23,523: reload_config() 'Creating new downloader for type reddit, location https://www.reddit.com/r/ultrahdwallpapers/top/?t=all'
-INFO: 2024-12-02 21:41:23,523: reload_config() 'Creating new downloader for type reddit, location https://www.reddit.com/r/wallpapers/top/?t=all'
-INFO: 2024-12-02 21:41:23,524: log_options() 'Loaded options:'
-INFO: 2024-12-02 21:41:23,524: log_options() 'change_enabled = True'
-INFO: 2024-12-02 21:41:23,524: log_options() 'change_interval = 300'
-INFO: 2024-12-02 21:41:23,524: log_options() 'change_on_start = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'clipboard_enabled = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
-INFO: 2024-12-02 21:41:23,524: log_options() 'clipboard_use_whitelist = True'
-INFO: 2024-12-02 21:41:23,524: log_options() 'clock_date_font = Ubuntu Nerd Font Medium 26'
-INFO: 2024-12-02 21:41:23,524: log_options() 'clock_enabled = True'
-INFO: 2024-12-02 21:41:23,524: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
-INFO: 2024-12-02 21:41:23,524: log_options() 'clock_font = Ubuntu Nerd Font 60'
-INFO: 2024-12-02 21:41:23,524: log_options() 'configfile = /home/pawel/.config/variety/variety.conf'
-INFO: 2024-12-02 21:41:23,524: log_options() 'copyto_enabled = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'copyto_folder = Default'
-INFO: 2024-12-02 21:41:23,524: log_options() 'desired_color = [160, 160, 160]'
-INFO: 2024-12-02 21:41:23,524: log_options() 'desired_color_enabled = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'download_folder = /home/pawel/.config/variety/Downloaded'
-INFO: 2024-12-02 21:41:23,524: log_options() 'download_preference_ratio = 0.9'
-INFO: 2024-12-02 21:41:23,524: log_options() 'favorites_folder = /home/pawel/.config/variety/Favorites'
-INFO: 2024-12-02 21:41:23,524: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
-INFO: 2024-12-02 21:41:23,524: log_options() 'fetched_folder = /home/pawel/.config/variety/Fetched'
-INFO: 2024-12-02 21:41:23,524: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-scale 20% -blur 0x10 -resize 500%'], [False, 'Soft blur', '-scale 20% -blur 0x2 -resize 500%'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
-INFO: 2024-12-02 21:41:23,524: log_options() 'get_wallpaper_script = /home/pawel/.config/variety/scripts/get_wallpaper'
-INFO: 2024-12-02 21:41:23,524: log_options() 'icon = Light'
-INFO: 2024-12-02 21:41:23,524: log_options() 'internet_enabled = True'
-INFO: 2024-12-02 21:41:23,524: log_options() 'lightness_enabled = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'lightness_mode = 0'
-INFO: 2024-12-02 21:41:23,524: log_options() 'min_rating = 2'
-INFO: 2024-12-02 21:41:23,524: log_options() 'min_rating_enabled = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'min_size = 80'
-INFO: 2024-12-02 21:41:23,524: log_options() 'min_size_enabled = True'
-INFO: 2024-12-02 21:41:23,524: log_options() 'quota_enabled = True'
-INFO: 2024-12-02 21:41:23,524: log_options() 'quota_size = 1000'
-INFO: 2024-12-02 21:41:23,524: log_options() 'quotes_authors = '
-INFO: 2024-12-02 21:41:23,524: log_options() 'quotes_bg_color = [80, 80, 80]'
-INFO: 2024-12-02 21:41:23,524: log_options() 'quotes_bg_opacity = 55'
-INFO: 2024-12-02 21:41:23,524: log_options() 'quotes_change_enabled = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'quotes_change_interval = 300'
-INFO: 2024-12-02 21:41:23,524: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
-INFO: 2024-12-02 21:41:23,524: log_options() 'quotes_enabled = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'quotes_favorites_file = /home/pawel/.config/variety/favorite_quotes.txt'
-INFO: 2024-12-02 21:41:23,524: log_options() 'quotes_font = Serif 30'
-INFO: 2024-12-02 21:41:23,524: log_options() 'quotes_hpos = 100'
-INFO: 2024-12-02 21:41:23,524: log_options() 'quotes_max_length = 250'
-INFO: 2024-12-02 21:41:23,524: log_options() 'quotes_tags = '
-INFO: 2024-12-02 21:41:23,524: log_options() 'quotes_text_color = [255, 255, 255]'
-INFO: 2024-12-02 21:41:23,524: log_options() 'quotes_text_shadow = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'quotes_vpos = 40'
-INFO: 2024-12-02 21:41:23,524: log_options() 'quotes_width = 70'
-INFO: 2024-12-02 21:41:23,524: log_options() 'safe_mode = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'set_wallpaper_script = /home/pawel/.config/variety/scripts/set_wallpaper'
-INFO: 2024-12-02 21:41:23,524: log_options() 'slideshow_custom_enabled = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'slideshow_custom_folder = /home/pawel/Obrazy'
-INFO: 2024-12-02 21:41:23,524: log_options() 'slideshow_downloads_enabled = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'slideshow_fade = 0.4'
-INFO: 2024-12-02 21:41:23,524: log_options() 'slideshow_favorites_enabled = True'
-INFO: 2024-12-02 21:41:23,524: log_options() 'slideshow_mode = Fullscreen'
-INFO: 2024-12-02 21:41:23,524: log_options() 'slideshow_monitor = All'
-INFO: 2024-12-02 21:41:23,524: log_options() 'slideshow_pan = 0.05'
-INFO: 2024-12-02 21:41:23,524: log_options() 'slideshow_seconds = 6.0'
-INFO: 2024-12-02 21:41:23,524: log_options() 'slideshow_sort_order = Random'
-INFO: 2024-12-02 21:41:23,524: log_options() 'slideshow_sources_enabled = True'
-INFO: 2024-12-02 21:41:23,524: log_options() 'slideshow_zoom = 0.2'
-INFO: 2024-12-02 21:41:23,524: log_options() 'smart_enabled = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'smart_notice_shown = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'smart_register_shown = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'sources = [[False, 'favorites', 'The Favorites folder'], [False, 'fetched', 'The Fetched folder'], [False, 'folder', '/usr/share/backgrounds'], [False, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [True, 'apod', "NASA's Astronomy Picture of the Day"], [True, 'bing', 'Bing Photo of the Day'], [True, 'earthview', 'Google Earth View Wallpapers'], [True, 'natgeo', "National Geographic's photo of the day"], [False, 'unsplash', 'High-resolution photos from Unsplash.com'], [True, 'folder', '/usr/share/wallpapers'], [True, 'reddit', 'https://www.reddit.com/r/ultrahdwallpapers/top/?t=all'], [True, 'reddit', 'https://www.reddit.com/r/wallpapers/top/?t=all']]'
-INFO: 2024-12-02 21:41:23,524: log_options() 'stats_enabled = True'
-INFO: 2024-12-02 21:41:23,524: log_options() 'stats_notice_shown = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'sync_enabled = True'
-INFO: 2024-12-02 21:41:23,524: log_options() 'use_landscape_enabled = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'wallhaven_api_key = '
-INFO: 2024-12-02 21:41:23,524: log_options() 'wallpaper_auto_rotate = False'
-INFO: 2024-12-02 21:41:23,524: log_options() 'wallpaper_display_mode = os'
-INFO: 2024-12-02 21:41:23,524: reload_config() 'No need to clear prepared queue'
-INFO: 2024-12-02 21:41:23,525: clock_thread_method() 'clock thread running'
-INFO: 2024-12-02 21:41:23,525: update_indicator() 'Setting file info to: /home/pawel/.config/variety/Downloaded/reddit_www_reddit_com_r_wallpapers_top__t_all/hyt5lCu.jpg'
-INFO: 2024-12-02 21:41:23,525: load_banned() 'Missing or invalid banned URLs list, no URLs will be banned'
-INFO: 2024-12-02 21:41:23,525: load_last_change_time() 'Change interval < 6 hours, ignore persisted last_change_time, wait initially the whole interval: 300'
-INFO: 2024-12-02 21:41:23,525: update_indicator() 'Setting file info to: /home/pawel/.config/variety/Downloaded/reddit_www_reddit_com_r_wallpapers_top__t_all/hyt5lCu.jpg'
-INFO: 2024-12-02 21:41:23,526: regular_change_thread() 'regular_change thread running'
-INFO: 2024-12-02 21:41:23,526: prepare_thread() 'Prepare thread running'
-INFO: 2024-12-02 21:41:23,526: prepare_thread() 'Prepared buffer contains 0 images'
-INFO: 2024-12-02 21:41:23,526: prepare_thread() 'Preparing some images'
-INFO: 2024-12-02 21:41:23,526: get_throttling() 'Bing: parsing serverside options'
-INFO: 2024-12-02 21:41:23,527: update_indicator_icon() 'Creating indicator'
-INFO: 2024-12-02 21:41:23,527: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
-INFO: 2024-12-02 21:41:23,527: get_throttling() 'Bing: parsing serverside options'
-INFO: 2024-12-02 21:41:23,527: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
-INFO: 2024-12-02 21:41:23,527: download_one() 'Bing: Downloading an image, config: None'
-INFO: 2024-12-02 21:41:23,527: download_one() 'Bing: Queue size: 0'
-INFO: 2024-12-02 21:41:23,527: get_throttling() 'Bing: parsing serverside options'
-INFO: 2024-12-02 21:41:23,528: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
-INFO: 2024-12-02 21:41:23,528: download_one() 'Bing: Filling queue'
-ERROR: 2024-12-02 21:41:23,530: download_one_from() 'Could not download wallpaper:'
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/urllib3/connection.py", line 174, in _new_conn
-    conn = connection.create_connection(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/util/connection.py", line 72, in create_connection
-    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/socket.py", line 976, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-socket.gaierror: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
-    httplib_response = self._make_request(
-                       ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 404, in _make_request
-    self._validate_conn(conn)
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1061, in _validate_conn
-    conn.connect()
-  File "/usr/lib/python3.12/site-packages/urllib3/connection.py", line 363, in connect
-    self.sock = conn = self._new_conn()
-                       ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/connection.py", line 186, in _new_conn
-    raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7bbd353969c0>: Failed to establish a new connection: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
-    resp = conn.urlopen(
-           ^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 802, in urlopen
-    retries = retries.increment(
-              ^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/util/retry.py", line 594, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.bing.com', port=443): Max retries exceeded with url: /HPImageArchive.aspx?format=js&idx=0&n=100&mkt=en-US (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7bbd353969c0>: Failed to establish a new connection: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/variety/VarietyWindow.py", line 1164, in download_one_from
-    file = downloader.download_one()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
-    items = self.fill_queue()
-            ^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/BingDownloader.py", line 61, in fill_queue
-    s = Util.fetch_json(BingDownloader.BING_JSON_URL)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/variety/Util.py", line 684, in fetch_json
-    return Util.request(url, data, **request_kwargs).json()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/variety/Util.py", line 654, in request
-    r = requests.request(
-        ^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
-    resp = self.send(prep, **send_kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
-    r = adapter.send(request, **kwargs)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/adapters.py", line 700, in send
-    raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.bing.com', port=443): Max retries exceeded with url: /HPImageArchive.aspx?format=js&idx=0&n=100&mkt=en-US (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7bbd353969c0>: Failed to establish a new connection: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe'))
-WARNING: 2024-12-02 21:41:23,534: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
-INFO: 2024-12-02 21:41:23,534: create_indicator() 'indicator backend: AppIndicator3'
-INFO: 2024-12-02 21:41:23,558: set_from_theme_icon() 'Showing indicator icon variety-indicator from GTK theme'
-INFO: 2024-12-02 21:41:23,562: prepare_thread() 'After search prepared buffer contains 27 images'
-INFO: 2024-12-02 21:41:23,626: do_set_wp() 'Calling do_set_wp with /home/pawel/.config/variety/Downloaded/reddit_www_reddit_com_r_wallpapers_top__t_all/hyt5lCu.jpg, time: 1733172083.6265981'
-INFO: 2024-12-02 21:41:23,632: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1920, h:1080, ratio:1.777778, iw:4259, ih:2396, scw:1920, sch:1080, ho:0, vo:0'
-INFO: 2024-12-02 21:41:23,632: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:60'` -pointsize 60 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '21:41' -fill white -annotate 0x0+60+110 '21:41' -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:Medium:26'` -pointsize 26 -fill '#00000044' -annotate 0x0+58+58 'poniedziałek, grudnia 02' -fill white -annotate 0x0+60+60 'poniedziałek, grudnia 02''
-INFO: 2024-12-02 21:41:23,632: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /home/pawel/.config/variety/Downloaded/reddit_www_reddit_com_r_wallpapers_top__t_all/hyt5lCu.jpg -scale 1920x1080^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:60'` -pointsize 60 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '21:41' -fill white -annotate 0x0+60+110 '21:41' -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:Medium:26'` -pointsize 26 -fill '#00000044' -annotate 0x0+58+58 'poniedziałek, grudnia 02' -fill white -annotate 0x0+60+60 'poniedziałek, grudnia 02' /home/pawel/.config/variety/wallpaper/wallpaper-clock-ab58cd765423d61d26ecfc1e221fc86d.jpg'
-INFO: 2024-12-02 21:41:23,858: update_indicator() 'Setting file info to: /home/pawel/.config/variety/Downloaded/reddit_www_reddit_com_r_wallpapers_top__t_all/hyt5lCu.jpg'
-INFO: 2024-12-02 21:41:23,859: list_files() 'More than 1 files in the folders, stop listing'
-INFO: 2024-12-02 21:41:24,525: clock_thread_method() 'clock_thread updates wallpaper'
-INFO: 2024-12-02 21:41:24,533: get_throttling() 'Earth View: parsing serverside options'
-INFO: 2024-12-02 21:41:24,533: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
-INFO: 2024-12-02 21:41:24,534: get_throttling() 'Earth View: parsing serverside options'
-INFO: 2024-12-02 21:41:24,534: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
-INFO: 2024-12-02 21:41:24,534: download_one() 'Earth View: Downloading an image, config: None'
-INFO: 2024-12-02 21:41:24,534: download_one() 'Earth View: Queue size: 0'
-INFO: 2024-12-02 21:41:24,534: get_throttling() 'Earth View: parsing serverside options'
-INFO: 2024-12-02 21:41:24,534: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
-INFO: 2024-12-02 21:41:24,534: download_one() 'Earth View: Filling queue'
-ERROR: 2024-12-02 21:41:24,537: download_one_from() 'Could not download wallpaper:'
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/urllib3/connection.py", line 174, in _new_conn
-    conn = connection.create_connection(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/util/connection.py", line 72, in create_connection
-    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/socket.py", line 976, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-socket.gaierror: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
-    httplib_response = self._make_request(
-                       ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 404, in _make_request
-    self._validate_conn(conn)
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1061, in _validate_conn
-    conn.connect()
-  File "/usr/lib/python3.12/site-packages/urllib3/connection.py", line 363, in connect
-    self.sock = conn = self._new_conn()
-                       ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/connection.py", line 186, in _new_conn
-    raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7bbd341bcf20>: Failed to establish a new connection: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
-    resp = conn.urlopen(
-           ^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 802, in urlopen
-    retries = retries.increment(
-              ^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/util/retry.py", line 594, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='earthview.withgoogle.com', port=443): Max retries exceeded with url: /_api/photos.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7bbd341bcf20>: Failed to establish a new connection: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe'))
-
-During handling of the above exception, another exception occurred:
-
+INFO: 2024-12-10 21:15:12,161: main() 'Using profile folder /home/pawel/.config/variety/'
+INFO: 2024-12-10 21:15:12,162: perform_upgrade() 'Last run version was 0.8.12 or earlier, current version is 0.8.12'
+INFO: 2024-12-10 21:15:12,272: process_command() 'Received command: ['-n']'
+INFO: 2024-12-10 21:15:12,273: start() 'Using data_path /usr/share/variety'
+INFO: 2024-12-10 21:15:12,273: load() 'Jumble loading'
+INFO: 2024-12-10 21:15:12,273: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.12/site-packages/variety/plugins/builtin/__init__.py'
+INFO: 2024-12-10 21:15:12,274: _walk_modules() 'Jumble loading module in GnomeDisplayModesPlugin from /usr/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/GnomeDisplayModesPlugin.py'
+INFO: 2024-12-10 21:15:12,274: load() 'Jumble found plugin class: <class 'GnomeDisplayModesPlugin.GnomeDisplayModesPlugin'>: {'name': 'GnomeDisplayModesPlugin', 'description': 'Display modes relying on the underlying desktop environment', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2024-12-10 21:15:12,274: _walk_modules() 'Jumble loading module in LegacyDisplayModesPlugin from /usr/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/LegacyDisplayModesPlugin.py'
+INFO: 2024-12-10 21:15:12,274: load() 'Jumble found plugin class: <class 'LegacyDisplayModesPlugin.LegacyDisplayModesPlugin'>: {'name': 'LegacyDisplayModesPlugin', 'description': 'Legacy display mode for compatibility with past Variety versions', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2024-12-10 21:15:12,274: _walk_modules() 'Jumble loading module in ResizingDisplayModesPlugin from /usr/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/ResizingDisplayModesPlugin.py'
+INFO: 2024-12-10 21:15:12,274: load() 'Jumble found plugin class: <class 'ResizingDisplayModesPlugin.ResizingDisplayModesPlugin'>: {'name': 'ResizingDisplayModesPlugin', 'description': 'Display modes that use image resizing within Variety', 'version': '1.0', 'author': 'Peter Levi'}'
+INFO: 2024-12-10 21:15:12,274: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.12/site-packages/variety/plugins/builtin/display_modes/__init__.py'
+INFO: 2024-12-10 21:15:12,275: _walk_modules() 'Jumble loading module in APODDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/APODDownloader.py'
+INFO: 2024-12-10 21:15:12,275: load() 'Jumble found plugin class: <class 'APODDownloader.APODDownloader'>: {'name': 'APODDownloader', 'description': 'NASA Astro Pic of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-12-10 21:15:12,275: _walk_modules() 'Jumble loading module in ArtStationDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/ArtStationDownloader.py'
+INFO: 2024-12-10 21:15:12,276: _walk_modules() 'Jumble loading module in ArtStationSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/ArtStationSource.py'
+INFO: 2024-12-10 21:15:12,276: load() 'Jumble found plugin class: <class 'ArtStationSource.ArtStationSource'>: {'name': 'ArtStationSource', 'description': 'Configurable source for fetching images from ArtStation', 'author': 'Denis Gordeev', 'version': '0.1'}'
+INFO: 2024-12-10 21:15:12,276: _walk_modules() 'Jumble loading module in BingDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/BingDownloader.py'
+INFO: 2024-12-10 21:15:12,277: load() 'Jumble found plugin class: <class 'BingDownloader.BingDownloader'>: {'name': 'BingDownloader', 'description': 'Bing Photo of the Day', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-12-10 21:15:12,277: _walk_modules() 'Jumble loading module in EarthviewDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/EarthviewDownloader.py'
+INFO: 2024-12-10 21:15:12,277: load() 'Jumble found plugin class: <class 'EarthviewDownloader.EarthviewDownloader'>: {'name': 'EarthviewDownloader', 'description': 'Google Earth View Wallpapers', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-12-10 21:15:12,277: _walk_modules() 'Jumble loading module in MediaRSSDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/MediaRSSDownloader.py'
+INFO: 2024-12-10 21:15:12,278: _walk_modules() 'Jumble loading module in MediaRSSSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/MediaRSSSource.py'
+INFO: 2024-12-10 21:15:12,278: load() 'Jumble found plugin class: <class 'MediaRSSSource.MediaRSSSource'>: {'name': 'MediaRSSSource', 'description': 'Configurable source for fetching images from MediaRSS feeds', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-12-10 21:15:12,278: _walk_modules() 'Jumble loading module in NationalGeographicDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/NationalGeographicDownloader.py'
+INFO: 2024-12-10 21:15:12,279: load() 'Jumble found plugin class: <class 'NationalGeographicDownloader.NationalGeographicDownloader'>: {'name': 'NationalGeographicDownloader', 'description': "National Geographic's photo of the day", 'author': 'Eric Rösch', 'version': '0.1'}'
+INFO: 2024-12-10 21:15:12,279: _walk_modules() 'Jumble loading module in RedditDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/RedditDownloader.py'
+INFO: 2024-12-10 21:15:12,279: _walk_modules() 'Jumble loading module in RedditSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/RedditSource.py'
+INFO: 2024-12-10 21:15:12,280: load() 'Jumble found plugin class: <class 'RedditSource.RedditSource'>: {'name': 'RedditSource', 'description': 'Configurable source for fetching images from Reddit', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-12-10 21:15:12,280: _walk_modules() 'Jumble loading module in UnsplashConfigurableSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/UnsplashConfigurableSource.py'
+INFO: 2024-12-10 21:15:12,280: load() 'Jumble found plugin class: <class 'UnsplashConfigurableSource.UnsplashConfigurableSource'>: {'name': 'UnsplashConfigurableSource', 'description': 'Configurable source for fetching photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-12-10 21:15:12,280: _walk_modules() 'Jumble loading module in UnsplashDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/UnsplashDownloader.py'
+INFO: 2024-12-10 21:15:12,281: load() 'Jumble found plugin class: <class 'UnsplashDownloader.UnsplashDownloader'>: {'name': 'UnsplashDownloader', 'description': 'High-resolution photos from Unsplash.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-12-10 21:15:12,281: _walk_modules() 'Jumble loading module in WallhavenDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/WallhavenDownloader.py'
+INFO: 2024-12-10 21:15:12,282: _walk_modules() 'Jumble loading module in WallhavenLegacyDownloader from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/WallhavenLegacyDownloader.py'
+INFO: 2024-12-10 21:15:12,282: _walk_modules() 'Jumble loading module in WallhavenSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/WallhavenSource.py'
+INFO: 2024-12-10 21:15:12,282: load() 'Jumble found plugin class: <class 'WallhavenSource.WallhavenSource'>: {'name': 'WallhavenSource', 'description': 'Configurable source for fetching images from Wallhaven.cc', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-12-10 21:15:12,282: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/__init__.py'
+INFO: 2024-12-10 21:15:12,282: _walk_modules() 'Jumble loading module in FortuneSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/quotes/FortuneSource.py'
+INFO: 2024-12-10 21:15:12,283: load() 'Jumble found plugin class: <class 'FortuneSource.FortuneSource'>: {'name': 'UNIX fortune program', 'description': 'Displays quotes using the UNIX fortune program. You may want to install additional fortune packs, e.g. fortunes-bofh-excuses.', 'author': 'Dan Jones', 'version': '0.1'}'
+INFO: 2024-12-10 21:15:12,283: _walk_modules() 'Jumble loading module in GoodreadsSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/quotes/GoodreadsSource.py'
+INFO: 2024-12-10 21:15:12,304: load() 'Jumble found plugin class: <class 'GoodreadsSource.GoodreadsSource'>: {'name': 'Goodreads', 'description': 'Fetches quotes from Goodreads.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-12-10 21:15:12,304: _walk_modules() 'Jumble loading module in LocalFilesSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/quotes/LocalFilesSource.py'
+INFO: 2024-12-10 21:15:12,304: load() 'Jumble found plugin class: <class 'LocalFilesSource.LocalFilesSource'>: {'name': 'Local text files', 'description': 'Displays quotes, defined in local text files.\nPut your own txt files in: ~/.config/variety/pluginconfig/quotes/.\nThe file format is:\n\nquote -- author\n.\nsecond quote -- another author\n.\netc...\n\nExample: http://rvelthuis.de/zips/quotes.txt', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-12-10 21:15:12,304: _walk_modules() 'Jumble loading module in QuotationsPageSource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/quotes/QuotationsPageSource.py'
+INFO: 2024-12-10 21:15:12,304: load() 'Jumble found plugin class: <class 'QuotationsPageSource.QuotationsPageSource'>: {'name': 'TheQuotationsPage.com', 'description': 'Fetches quotes from TheQuotationsPage.com', 'author': 'Peter Levi', 'version': '0.1'}'
+INFO: 2024-12-10 21:15:12,304: _walk_modules() 'Jumble loading module in UrbanDictionarySource from /usr/lib/python3.12/site-packages/variety/plugins/builtin/quotes/UrbanDictionarySource.py'
+INFO: 2024-12-10 21:15:12,305: load() 'Jumble found plugin class: <class 'UrbanDictionarySource.UrbanDictionarySource'>: {'name': 'Urban Dictionary', 'description': 'Displays definitions from Urban Dictionary', 'author': 'James Miller', 'version': '0.1'}'
+INFO: 2024-12-10 21:15:12,305: _walk_modules() 'Jumble loading module in __init__ from /usr/lib/python3.12/site-packages/variety/plugins/builtin/quotes/__init__.py'
+INFO: 2024-12-10 21:15:12,313: reload_config() 'Creating new downloader for type apod, location NASA's Astronomy Picture of the Day'
+INFO: 2024-12-10 21:15:12,313: reload_config() 'Creating new downloader for type bing, location Bing Photo of the Day'
+INFO: 2024-12-10 21:15:12,313: reload_config() 'Creating new downloader for type earthview, location Google Earth View Wallpapers'
+INFO: 2024-12-10 21:15:12,313: reload_config() 'Creating new downloader for type natgeo, location National Geographic's photo of the day'
+INFO: 2024-12-10 21:15:12,313: reload_config() 'Creating new downloader for type reddit, location https://www.reddit.com/r/ultrahdwallpapers/top/?t=all'
+INFO: 2024-12-10 21:15:12,313: reload_config() 'Creating new downloader for type reddit, location https://www.reddit.com/r/wallpapers/top/?t=all'
+INFO: 2024-12-10 21:15:12,314: log_options() 'Loaded options:'
+INFO: 2024-12-10 21:15:12,314: log_options() 'change_enabled = True'
+INFO: 2024-12-10 21:15:12,314: log_options() 'change_interval = 300'
+INFO: 2024-12-10 21:15:12,314: log_options() 'change_on_start = False'
+INFO: 2024-12-10 21:15:12,314: log_options() 'clipboard_enabled = False'
+INFO: 2024-12-10 21:15:12,314: log_options() 'clipboard_hosts = ['wallhaven.cc', 'wallpapers.net', 'flickr.com', 'imgur.com', 'deviantart.com', 'interfacelift.com', 'vladstudio.com', 'imageshack.us', 'deviantart.net', 'imageshack.com']'
+INFO: 2024-12-10 21:15:12,314: log_options() 'clipboard_use_whitelist = True'
+INFO: 2024-12-10 21:15:12,314: log_options() 'clock_date_font = Ubuntu Nerd Font Medium 26'
+INFO: 2024-12-10 21:15:12,314: log_options() 'clock_enabled = True'
+INFO: 2024-12-10 21:15:12,314: log_options() 'clock_filter = -density 100 -font `fc-match -f '%{file[0]}' '%CLOCK_FONT_NAME'` -pointsize %CLOCK_FONT_SIZE -gravity SouthEast -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+108] '%H:%M' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+110] '%H:%M' -font `fc-match -f '%{file[0]}' '%DATE_FONT_NAME'` -pointsize %DATE_FONT_SIZE -fill '#00000044' -annotate 0x0+[%HOFFSET+58]+[%VOFFSET+58] '%A, %B %d' -fill white -annotate 0x0+[%HOFFSET+60]+[%VOFFSET+60] '%A, %B %d''
+INFO: 2024-12-10 21:15:12,314: log_options() 'clock_font = Ubuntu Nerd Font 60'
+INFO: 2024-12-10 21:15:12,314: log_options() 'configfile = /home/pawel/.config/variety/variety.conf'
+INFO: 2024-12-10 21:15:12,314: log_options() 'copyto_enabled = False'
+INFO: 2024-12-10 21:15:12,314: log_options() 'copyto_folder = Default'
+INFO: 2024-12-10 21:15:12,314: log_options() 'desired_color = [160, 160, 160]'
+INFO: 2024-12-10 21:15:12,314: log_options() 'desired_color_enabled = False'
+INFO: 2024-12-10 21:15:12,314: log_options() 'download_folder = /home/pawel/.config/variety/Downloaded'
+INFO: 2024-12-10 21:15:12,314: log_options() 'download_preference_ratio = 0.9'
+INFO: 2024-12-10 21:15:12,314: log_options() 'favorites_folder = /home/pawel/.config/variety/Favorites'
+INFO: 2024-12-10 21:15:12,314: log_options() 'favorites_operations = [['Downloaded', 'Copy'], ['Fetched', 'Move'], ['Others', 'Copy']]'
+INFO: 2024-12-10 21:15:12,314: log_options() 'fetched_folder = /home/pawel/.config/variety/Fetched'
+INFO: 2024-12-10 21:15:12,314: log_options() 'filters = [[False, 'Keep original', ''], [False, 'Grayscale', '-type Grayscale'], [False, 'Heavy blur', '-scale 20% -blur 0x10 -resize 500%'], [False, 'Soft blur', '-scale 20% -blur 0x2 -resize 500%'], [False, 'Oil painting', '-paint 8'], [False, 'Pointilism', '-spread 10 -noise 3'], [False, 'Pixellate', '-scale 3% -scale 3333%']]'
+INFO: 2024-12-10 21:15:12,314: log_options() 'get_wallpaper_script = /home/pawel/.config/variety/scripts/get_wallpaper'
+INFO: 2024-12-10 21:15:12,314: log_options() 'icon = Light'
+INFO: 2024-12-10 21:15:12,314: log_options() 'internet_enabled = True'
+INFO: 2024-12-10 21:15:12,314: log_options() 'lightness_enabled = False'
+INFO: 2024-12-10 21:15:12,314: log_options() 'lightness_mode = 0'
+INFO: 2024-12-10 21:15:12,314: log_options() 'min_rating = 2'
+INFO: 2024-12-10 21:15:12,314: log_options() 'min_rating_enabled = False'
+INFO: 2024-12-10 21:15:12,314: log_options() 'min_size = 80'
+INFO: 2024-12-10 21:15:12,314: log_options() 'min_size_enabled = True'
+INFO: 2024-12-10 21:15:12,314: log_options() 'quota_enabled = True'
+INFO: 2024-12-10 21:15:12,314: log_options() 'quota_size = 1000'
+INFO: 2024-12-10 21:15:12,314: log_options() 'quotes_authors = '
+INFO: 2024-12-10 21:15:12,314: log_options() 'quotes_bg_color = [80, 80, 80]'
+INFO: 2024-12-10 21:15:12,314: log_options() 'quotes_bg_opacity = 55'
+INFO: 2024-12-10 21:15:12,314: log_options() 'quotes_change_enabled = False'
+INFO: 2024-12-10 21:15:12,314: log_options() 'quotes_change_interval = 300'
+INFO: 2024-12-10 21:15:12,314: log_options() 'quotes_disabled_sources = ['Urban Dictionary']'
+INFO: 2024-12-10 21:15:12,314: log_options() 'quotes_enabled = False'
+INFO: 2024-12-10 21:15:12,314: log_options() 'quotes_favorites_file = /home/pawel/.config/variety/favorite_quotes.txt'
+INFO: 2024-12-10 21:15:12,314: log_options() 'quotes_font = Serif 30'
+INFO: 2024-12-10 21:15:12,314: log_options() 'quotes_hpos = 100'
+INFO: 2024-12-10 21:15:12,314: log_options() 'quotes_max_length = 250'
+INFO: 2024-12-10 21:15:12,314: log_options() 'quotes_tags = '
+INFO: 2024-12-10 21:15:12,314: log_options() 'quotes_text_color = [255, 255, 255]'
+INFO: 2024-12-10 21:15:12,314: log_options() 'quotes_text_shadow = False'
+INFO: 2024-12-10 21:15:12,314: log_options() 'quotes_vpos = 40'
+INFO: 2024-12-10 21:15:12,314: log_options() 'quotes_width = 70'
+INFO: 2024-12-10 21:15:12,314: log_options() 'safe_mode = False'
+INFO: 2024-12-10 21:15:12,314: log_options() 'set_wallpaper_script = /home/pawel/.config/variety/scripts/set_wallpaper'
+INFO: 2024-12-10 21:15:12,314: log_options() 'slideshow_custom_enabled = False'
+INFO: 2024-12-10 21:15:12,314: log_options() 'slideshow_custom_folder = /home/pawel/Obrazy'
+INFO: 2024-12-10 21:15:12,314: log_options() 'slideshow_downloads_enabled = False'
+INFO: 2024-12-10 21:15:12,314: log_options() 'slideshow_fade = 0.4'
+INFO: 2024-12-10 21:15:12,314: log_options() 'slideshow_favorites_enabled = True'
+INFO: 2024-12-10 21:15:12,314: log_options() 'slideshow_mode = Fullscreen'
+INFO: 2024-12-10 21:15:12,314: log_options() 'slideshow_monitor = All'
+INFO: 2024-12-10 21:15:12,314: log_options() 'slideshow_pan = 0.05'
+INFO: 2024-12-10 21:15:12,314: log_options() 'slideshow_seconds = 6.0'
+INFO: 2024-12-10 21:15:12,314: log_options() 'slideshow_sort_order = Random'
+INFO: 2024-12-10 21:15:12,314: log_options() 'slideshow_sources_enabled = True'
+INFO: 2024-12-10 21:15:12,314: log_options() 'slideshow_zoom = 0.2'
+INFO: 2024-12-10 21:15:12,314: log_options() 'smart_enabled = False'
+INFO: 2024-12-10 21:15:12,314: log_options() 'smart_notice_shown = False'
+INFO: 2024-12-10 21:15:12,314: log_options() 'smart_register_shown = False'
+INFO: 2024-12-10 21:15:12,314: log_options() 'sources = [[False, 'favorites', 'The Favorites folder'], [False, 'fetched', 'The Fetched folder'], [False, 'folder', '/usr/share/backgrounds'], [False, 'flickr', 'user:www.flickr.com/photos/peter-levi/;user_id:93647178@N00;'], [True, 'apod', "NASA's Astronomy Picture of the Day"], [True, 'bing', 'Bing Photo of the Day'], [True, 'earthview', 'Google Earth View Wallpapers'], [True, 'natgeo', "National Geographic's photo of the day"], [False, 'unsplash', 'High-resolution photos from Unsplash.com'], [True, 'folder', '/usr/share/wallpapers'], [True, 'reddit', 'https://www.reddit.com/r/ultrahdwallpapers/top/?t=all'], [True, 'reddit', 'https://www.reddit.com/r/wallpapers/top/?t=all']]'
+INFO: 2024-12-10 21:15:12,315: log_options() 'stats_enabled = True'
+INFO: 2024-12-10 21:15:12,315: log_options() 'stats_notice_shown = False'
+INFO: 2024-12-10 21:15:12,315: log_options() 'sync_enabled = True'
+INFO: 2024-12-10 21:15:12,315: log_options() 'use_landscape_enabled = False'
+INFO: 2024-12-10 21:15:12,315: log_options() 'wallhaven_api_key = '
+INFO: 2024-12-10 21:15:12,315: log_options() 'wallpaper_auto_rotate = False'
+INFO: 2024-12-10 21:15:12,315: log_options() 'wallpaper_display_mode = os'
+INFO: 2024-12-10 21:15:12,315: reload_config() 'No need to clear prepared queue'
+INFO: 2024-12-10 21:15:12,315: clock_thread_method() 'clock thread running'
+INFO: 2024-12-10 21:15:12,315: update_indicator() 'Setting file info to: /home/pawel/.config/variety/Downloaded/nasa_apod/TaurusDust_Chander_4096.jpg'
+INFO: 2024-12-10 21:15:12,316: load_banned() 'Missing or invalid banned URLs list, no URLs will be banned'
+INFO: 2024-12-10 21:15:12,316: load_last_change_time() 'Change interval < 6 hours, ignore persisted last_change_time, wait initially the whole interval: 300'
+INFO: 2024-12-10 21:15:12,316: update_indicator() 'Setting file info to: /home/pawel/.config/variety/Downloaded/nasa_apod/TaurusDust_Chander_4096.jpg'
+INFO: 2024-12-10 21:15:12,316: regular_change_thread() 'regular_change thread running'
+INFO: 2024-12-10 21:15:12,316: prepare_thread() 'Prepare thread running'
+INFO: 2024-12-10 21:15:12,316: prepare_thread() 'Prepared buffer contains 0 images'
+INFO: 2024-12-10 21:15:12,316: prepare_thread() 'Preparing some images'
+INFO: 2024-12-10 21:15:12,317: update_indicator_icon() 'Creating indicator'
+INFO: 2024-12-10 21:15:12,318: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2024-12-10 21:15:12,318: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2024-12-10 21:15:12,318: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2024-12-10 21:15:12,318: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2024-12-10 21:15:12,318: download_one() 'Earth View: Downloading an image, config: None'
+INFO: 2024-12-10 21:15:12,318: download_one() 'Earth View: Queue size: 0'
+INFO: 2024-12-10 21:15:12,319: get_throttling() 'Earth View: parsing serverside options'
+INFO: 2024-12-10 21:15:12,319: get_throttling() 'Could not parse Earth View serverside options, using defaults 20, None'
+INFO: 2024-12-10 21:15:12,319: download_one() 'Earth View: Filling queue'
+WARNING: 2024-12-10 21:15:12,322: create_menu() 'Variety Slideshow is not installed. This is an optional extension adding pan-and-zoom slideshows to Variety: see https://github.com/peterlevi/variety-slideshow for details'
+INFO: 2024-12-10 21:15:12,323: create_indicator() 'indicator backend: AppIndicator3'
+INFO: 2024-12-10 21:15:12,348: set_from_theme_icon() 'Showing indicator icon variety-indicator from GTK theme'
+INFO: 2024-12-10 21:15:12,353: prepare_thread() 'After search prepared buffer contains 40 images'
+INFO: 2024-12-10 21:15:12,417: do_set_wp() 'Calling do_set_wp with /home/pawel/.config/variety/Downloaded/nasa_apod/TaurusDust_Chander_4096.jpg, time: 1733861712.4170012'
+INFO: 2024-12-10 21:15:12,422: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1920, h:1080, ratio:1.777778, iw:4096, ih:2667, scw:1920, sch:1250, ho:0, vo:85'
+INFO: 2024-12-10 21:15:12,422: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:60'` -pointsize 60 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+193 '21:15' -fill white -annotate 0x0+60+195 '21:15' -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:Medium:26'` -pointsize 26 -fill '#00000044' -annotate 0x0+58+143 'wtorek, grudnia 10' -fill white -annotate 0x0+60+145 'wtorek, grudnia 10''
+INFO: 2024-12-10 21:15:12,422: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /home/pawel/.config/variety/Downloaded/nasa_apod/TaurusDust_Chander_4096.jpg -scale 1920x1080^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:60'` -pointsize 60 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+193 '21:15' -fill white -annotate 0x0+60+195 '21:15' -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:Medium:26'` -pointsize 26 -fill '#00000044' -annotate 0x0+58+143 'wtorek, grudnia 10' -fill white -annotate 0x0+60+145 'wtorek, grudnia 10' /home/pawel/.config/variety/wallpaper/wallpaper-clock-82f20f69c8162d974d8483816853add8.jpg'
+ERROR: 2024-12-10 21:15:12,528: download_one_from() 'Could not download wallpaper:'
 Traceback (most recent call last):
   File "/usr/lib/python3.12/site-packages/variety/VarietyWindow.py", line 1164, in download_one_from
     file = downloader.download_one()
@@ -299,79 +170,44 @@ Traceback (most recent call last):
   File "/usr/lib/python3.12/site-packages/variety/Util.py", line 684, in fetch_json
     return Util.request(url, data, **request_kwargs).json()
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/variety/Util.py", line 654, in request
-    r = requests.request(
-        ^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
-    resp = self.send(prep, **send_kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
-    r = adapter.send(request, **kwargs)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/adapters.py", line 700, in send
-    raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='earthview.withgoogle.com', port=443): Max retries exceeded with url: /_api/photos.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7bbd341bcf20>: Failed to establish a new connection: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe'))
-INFO: 2024-12-02 21:41:24,627: do_set_wp() 'Calling do_set_wp with /home/pawel/.config/variety/Downloaded/reddit_www_reddit_com_r_wallpapers_top__t_all/hyt5lCu.jpg, time: 1733172084.6271002'
-INFO: 2024-12-02 21:41:24,628: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1920, h:1080, ratio:1.777778, iw:4259, ih:2396, scw:1920, sch:1080, ho:0, vo:0'
-INFO: 2024-12-02 21:41:24,628: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:60'` -pointsize 60 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '21:41' -fill white -annotate 0x0+60+110 '21:41' -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:Medium:26'` -pointsize 26 -fill '#00000044' -annotate 0x0+58+58 'poniedziałek, grudnia 02' -fill white -annotate 0x0+60+60 'poniedziałek, grudnia 02''
-INFO: 2024-12-02 21:41:24,628: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /home/pawel/.config/variety/Downloaded/reddit_www_reddit_com_r_wallpapers_top__t_all/hyt5lCu.jpg -scale 1920x1080^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:60'` -pointsize 60 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '21:41' -fill white -annotate 0x0+60+110 '21:41' -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:Medium:26'` -pointsize 26 -fill '#00000044' -annotate 0x0+58+58 'poniedziałek, grudnia 02' -fill white -annotate 0x0+60+60 'poniedziałek, grudnia 02' /home/pawel/.config/variety/wallpaper/wallpaper-clock-57db76d1138eac8ad4a6ea2667fbe021.jpg'
-INFO: 2024-12-02 21:41:24,813: reload() 'Reloading preferences dialog'
-INFO: 2024-12-02 21:41:24,858: update_indicator() 'Setting file info to: /home/pawel/.config/variety/Downloaded/reddit_www_reddit_com_r_wallpapers_top__t_all/hyt5lCu.jpg'
-INFO: 2024-12-02 21:41:24,859: list_files() 'More than 1 files in the folders, stop listing'
-INFO: 2024-12-02 21:41:25,543: get_throttling() 'National Geographic: parsing serverside options'
-INFO: 2024-12-02 21:41:25,543: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
-INFO: 2024-12-02 21:41:25,543: get_throttling() 'National Geographic: parsing serverside options'
-INFO: 2024-12-02 21:41:25,543: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
-INFO: 2024-12-02 21:41:25,543: download_one() 'National Geographic: Downloading an image, config: None'
-INFO: 2024-12-02 21:41:25,543: download_one() 'National Geographic: Queue size: 0'
-INFO: 2024-12-02 21:41:25,543: get_throttling() 'National Geographic: parsing serverside options'
-INFO: 2024-12-02 21:41:25,543: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
-INFO: 2024-12-02 21:41:25,543: download_one() 'National Geographic: Filling queue'
-ERROR: 2024-12-02 21:41:25,546: download_one_from() 'Could not download wallpaper:'
+  File "/usr/lib/python3.12/site-packages/variety/Util.py", line 663, in request
+    r.raise_for_status()
+  File "/usr/lib/python3.12/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 404 Client Error: Not Found for url: https://earthview.withgoogle.com/_api/photos.json
+INFO: 2024-12-10 21:15:12,687: update_indicator() 'Setting file info to: /home/pawel/.config/variety/Downloaded/nasa_apod/TaurusDust_Chander_4096.jpg'
+INFO: 2024-12-10 21:15:12,688: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2024-12-10 21:15:13,315: clock_thread_method() 'clock_thread updates wallpaper'
+INFO: 2024-12-10 21:15:13,417: do_set_wp() 'Calling do_set_wp with /home/pawel/.config/variety/Downloaded/nasa_apod/TaurusDust_Chander_4096.jpg, time: 1733861713.417489'
+INFO: 2024-12-10 21:15:13,419: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1920, h:1080, ratio:1.777778, iw:4096, ih:2667, scw:1920, sch:1250, ho:0, vo:85'
+INFO: 2024-12-10 21:15:13,419: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:60'` -pointsize 60 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+193 '21:15' -fill white -annotate 0x0+60+195 '21:15' -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:Medium:26'` -pointsize 26 -fill '#00000044' -annotate 0x0+58+143 'wtorek, grudnia 10' -fill white -annotate 0x0+60+145 'wtorek, grudnia 10''
+INFO: 2024-12-10 21:15:13,419: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /home/pawel/.config/variety/Downloaded/nasa_apod/TaurusDust_Chander_4096.jpg -scale 1920x1080^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:60'` -pointsize 60 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+193 '21:15' -fill white -annotate 0x0+60+195 '21:15' -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:Medium:26'` -pointsize 26 -fill '#00000044' -annotate 0x0+58+143 'wtorek, grudnia 10' -fill white -annotate 0x0+60+145 'wtorek, grudnia 10' /home/pawel/.config/variety/wallpaper/wallpaper-clock-8fda6edbeae23b15e26218bc4cf7cecf.jpg'
+INFO: 2024-12-10 21:15:13,530: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2024-12-10 21:15:13,530: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2024-12-10 21:15:13,530: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2024-12-10 21:15:13,530: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2024-12-10 21:15:13,530: download_one() 'National Geographic: Downloading an image, config: None'
+INFO: 2024-12-10 21:15:13,531: download_one() 'National Geographic: Queue size: 0'
+INFO: 2024-12-10 21:15:13,531: get_throttling() 'National Geographic: parsing serverside options'
+INFO: 2024-12-10 21:15:13,531: get_throttling() 'Could not parse National Geographic serverside options, using defaults None, None'
+INFO: 2024-12-10 21:15:13,531: download_one() 'National Geographic: Filling queue'
+INFO: 2024-12-10 21:15:13,578: reload() 'Reloading preferences dialog'
+INFO: 2024-12-10 21:15:13,682: update_indicator() 'Setting file info to: /home/pawel/.config/variety/Downloaded/nasa_apod/TaurusDust_Chander_4096.jpg'
+INFO: 2024-12-10 21:15:13,683: list_files() 'More than 1 files in the folders, stop listing'
+ERROR: 2024-12-10 21:15:13,785: download_one_from() 'Could not download wallpaper:'
 Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/urllib3/connection.py", line 174, in _new_conn
-    conn = connection.create_connection(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/util/connection.py", line 72, in create_connection
-    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/socket.py", line 976, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-socket.gaierror: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
-    httplib_response = self._make_request(
-                       ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 404, in _make_request
-    self._validate_conn(conn)
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1061, in _validate_conn
-    conn.connect()
-  File "/usr/lib/python3.12/site-packages/urllib3/connection.py", line 363, in connect
-    self.sock = conn = self._new_conn()
-                       ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/connection.py", line 186, in _new_conn
-    raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7bbd21d2ac60>: Failed to establish a new connection: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
-    resp = conn.urlopen(
-           ^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 802, in urlopen
-    retries = retries.increment(
-              ^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/util/retry.py", line 594, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.nationalgeographic.co.uk', port=443): Max retries exceeded with url: /page-data/photo-of-day/page-data.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7bbd21d2ac60>: Failed to establish a new connection: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe'))
+  File "/usr/lib/python3.12/site-packages/requests/models.py", line 974, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 2 column 9 (char 9)
 
 During handling of the above exception, another exception occurred:
 
@@ -387,195 +223,79 @@ Traceback (most recent call last):
             ^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/usr/lib/python3.12/site-packages/variety/Util.py", line 684, in fetch_json
     return Util.request(url, data, **request_kwargs).json()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/variety/Util.py", line 654, in request
-    r = requests.request(
-        ^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
-    resp = self.send(prep, **send_kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
-    r = adapter.send(request, **kwargs)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/adapters.py", line 700, in send
-    raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.nationalgeographic.co.uk', port=443): Max retries exceeded with url: /page-data/photo-of-day/page-data.json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7bbd21d2ac60>: Failed to establish a new connection: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe'))
-INFO: 2024-12-02 21:41:25,563: trigger_download() 'Triggering download thread to check if download needed and possible'
-INFO: 2024-12-02 21:41:26,482: set_wallpaper() 'Calling set_wallpaper with /usr/share/wallpapers/0098.jpg'
-INFO: 2024-12-02 21:41:26,483: do_set_wp() 'Calling do_set_wp with /usr/share/wallpapers/0098.jpg, time: 1733172086.4835494'
-INFO: 2024-12-02 21:41:26,483: prepare_thread() 'Prepared buffer contains 26 images'
-INFO: 2024-12-02 21:41:26,486: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1920, h:1080, ratio:1.777778, iw:8000, ih:3876, scw:2229, sch:1080, ho:154, vo:0'
-INFO: 2024-12-02 21:41:26,486: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:60'` -pointsize 60 -gravity SouthEast -fill '#00000044' -annotate 0x0+212+108 '21:41' -fill white -annotate 0x0+214+110 '21:41' -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:Medium:26'` -pointsize 26 -fill '#00000044' -annotate 0x0+212+58 'poniedziałek, grudnia 02' -fill white -annotate 0x0+214+60 'poniedziałek, grudnia 02''
-INFO: 2024-12-02 21:41:26,486: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /usr/share/wallpapers/0098.jpg -scale 1920x1080^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:60'` -pointsize 60 -gravity SouthEast -fill '#00000044' -annotate 0x0+212+108 '21:41' -fill white -annotate 0x0+214+110 '21:41' -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:Medium:26'` -pointsize 26 -fill '#00000044' -annotate 0x0+212+58 'poniedziałek, grudnia 02' -fill white -annotate 0x0+214+60 'poniedziałek, grudnia 02' /home/pawel/.config/variety/wallpaper/wallpaper-clock-9362106c8e6c07705c98597f8f129066.jpg'
-INFO: 2024-12-02 21:41:26,548: get_throttling() 'Reddit: parsing serverside options'
-INFO: 2024-12-02 21:41:26,548: get_throttling() 'Could not parse Reddit serverside options, using defaults None, None'
-INFO: 2024-12-02 21:41:26,549: get_throttling() 'Reddit: parsing serverside options'
-INFO: 2024-12-02 21:41:26,549: get_throttling() 'Could not parse Reddit serverside options, using defaults None, None'
-INFO: 2024-12-02 21:41:26,549: download_one() 'Reddit: Downloading an image, config: https://www.reddit.com/r/wallpapers/top/?t=all'
-INFO: 2024-12-02 21:41:26,549: download_one() 'Reddit: Queue size: 0'
-INFO: 2024-12-02 21:41:26,549: get_throttling() 'Reddit: parsing serverside options'
-INFO: 2024-12-02 21:41:26,549: get_throttling() 'Could not parse Reddit serverside options, using defaults None, None'
-INFO: 2024-12-02 21:41:26,549: download_one() 'Reddit: Filling queue'
-INFO: 2024-12-02 21:41:26,549: fill_queue() 'Reddit URL: https://www.reddit.com/r/wallpapers/top/?t=all'
-ERROR: 2024-12-02 21:41:26,549: download_one_from() 'Could not download wallpaper:'
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/urllib3/connection.py", line 174, in _new_conn
-    conn = connection.create_connection(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/util/connection.py", line 72, in create_connection
-    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/socket.py", line 976, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-socket.gaierror: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
-    httplib_response = self._make_request(
-                       ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 404, in _make_request
-    self._validate_conn(conn)
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1061, in _validate_conn
-    conn.connect()
-  File "/usr/lib/python3.12/site-packages/urllib3/connection.py", line 363, in connect
-    self.sock = conn = self._new_conn()
-                       ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/connection.py", line 186, in _new_conn
-    raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7bbd21d2b380>: Failed to establish a new connection: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
-    resp = conn.urlopen(
-           ^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 802, in urlopen
-    retries = retries.increment(
-              ^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/util/retry.py", line 594, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/wallpapers/top/.json?t=all&limit=100 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7bbd21d2b380>: Failed to establish a new connection: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/variety/VarietyWindow.py", line 1164, in download_one_from
-    file = downloader.download_one()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
-    items = self.fill_queue()
-            ^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/RedditDownloader.py", line 52, in fill_queue
-    s = Util.fetch_json(json_url)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/variety/Util.py", line 684, in fetch_json
-    return Util.request(url, data, **request_kwargs).json()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/variety/Util.py", line 654, in request
-    r = requests.request(
-        ^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
-    resp = self.send(prep, **send_kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
-    r = adapter.send(request, **kwargs)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/adapters.py", line 700, in send
-    raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/wallpapers/top/.json?t=all&limit=100 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7bbd21d2b380>: Failed to establish a new connection: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe'))
-INFO: 2024-12-02 21:41:26,918: update_indicator() 'Setting file info to: /usr/share/wallpapers/0098.jpg'
-INFO: 2024-12-02 21:41:26,918: list_files() 'More than 1 files in the folders, stop listing'
-INFO: 2024-12-02 21:41:27,551: get_throttling() 'Reddit: parsing serverside options'
-INFO: 2024-12-02 21:41:27,551: get_throttling() 'Could not parse Reddit serverside options, using defaults None, None'
-INFO: 2024-12-02 21:41:27,551: get_throttling() 'Reddit: parsing serverside options'
-INFO: 2024-12-02 21:41:27,551: get_throttling() 'Could not parse Reddit serverside options, using defaults None, None'
-INFO: 2024-12-02 21:41:27,551: download_one() 'Reddit: Downloading an image, config: https://www.reddit.com/r/ultrahdwallpapers/top/?t=all'
-INFO: 2024-12-02 21:41:27,551: download_one() 'Reddit: Queue size: 0'
-INFO: 2024-12-02 21:41:27,552: get_throttling() 'Reddit: parsing serverside options'
-INFO: 2024-12-02 21:41:27,552: get_throttling() 'Could not parse Reddit serverside options, using defaults None, None'
-INFO: 2024-12-02 21:41:27,552: download_one() 'Reddit: Filling queue'
-INFO: 2024-12-02 21:41:27,552: fill_queue() 'Reddit URL: https://www.reddit.com/r/ultrahdwallpapers/top/?t=all'
-ERROR: 2024-12-02 21:41:27,555: download_one_from() 'Could not download wallpaper:'
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/urllib3/connection.py", line 174, in _new_conn
-    conn = connection.create_connection(
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/util/connection.py", line 72, in create_connection
-    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/socket.py", line 976, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-socket.gaierror: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 716, in urlopen
-    httplib_response = self._make_request(
-                       ^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 404, in _make_request
-    self._validate_conn(conn)
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 1061, in _validate_conn
-    conn.connect()
-  File "/usr/lib/python3.12/site-packages/urllib3/connection.py", line 363, in connect
-    self.sock = conn = self._new_conn()
-                       ^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/connection.py", line 186, in _new_conn
-    raise NewConnectionError(
-urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7bbd21d28d40>: Failed to establish a new connection: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/requests/adapters.py", line 667, in send
-    resp = conn.urlopen(
-           ^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/connectionpool.py", line 802, in urlopen
-    retries = retries.increment(
-              ^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/urllib3/util/retry.py", line 594, in increment
-    raise MaxRetryError(_pool, url, error or ResponseError(cause))
-urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/ultrahdwallpapers/top/.json?t=all&limit=100 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7bbd21d28d40>: Failed to establish a new connection: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe'))
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/usr/lib/python3.12/site-packages/variety/VarietyWindow.py", line 1164, in download_one_from
-    file = downloader.download_one()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/variety/plugins/downloaders/DefaultDownloader.py", line 141, in download_one
-    items = self.fill_queue()
-            ^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/variety/plugins/builtin/downloaders/RedditDownloader.py", line 52, in fill_queue
-    s = Util.fetch_json(json_url)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/variety/Util.py", line 684, in fetch_json
-    return Util.request(url, data, **request_kwargs).json()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/variety/Util.py", line 654, in request
-    r = requests.request(
-        ^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/api.py", line 59, in request
-    return session.request(method=method, url=url, **kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/sessions.py", line 589, in request
-    resp = self.send(prep, **send_kwargs)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/sessions.py", line 703, in send
-    r = adapter.send(request, **kwargs)
-        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/usr/lib/python3.12/site-packages/requests/adapters.py", line 700, in send
-    raise ConnectionError(e, request=request)
-requests.exceptions.ConnectionError: HTTPSConnectionPool(host='www.reddit.com', port=443): Max retries exceeded with url: /r/ultrahdwallpapers/top/.json?t=all&limit=100 (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7bbd21d28d40>: Failed to establish a new connection: [Errno -3] Odwzorowanie nazwy jest chwilowo niemożliwe'))
-INFO: 2024-12-02 21:41:28,917: trigger_download() 'Triggering download thread to check if download needed and possible'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/site-packages/requests/models.py", line 978, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 2 column 9 (char 9)
+INFO: 2024-12-10 21:15:14,353: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2024-12-10 21:15:14,788: get_throttling() 'Reddit: parsing serverside options'
+INFO: 2024-12-10 21:15:14,789: get_throttling() 'Could not parse Reddit serverside options, using defaults None, None'
+INFO: 2024-12-10 21:15:14,789: get_throttling() 'Reddit: parsing serverside options'
+INFO: 2024-12-10 21:15:14,789: get_throttling() 'Could not parse Reddit serverside options, using defaults None, None'
+INFO: 2024-12-10 21:15:14,789: download_one() 'Reddit: Downloading an image, config: https://www.reddit.com/r/wallpapers/top/?t=all'
+INFO: 2024-12-10 21:15:14,789: download_one() 'Reddit: Queue size: 0'
+INFO: 2024-12-10 21:15:14,789: get_throttling() 'Reddit: parsing serverside options'
+INFO: 2024-12-10 21:15:14,789: get_throttling() 'Could not parse Reddit serverside options, using defaults None, None'
+INFO: 2024-12-10 21:15:14,789: download_one() 'Reddit: Filling queue'
+INFO: 2024-12-10 21:15:14,789: fill_queue() 'Reddit URL: https://www.reddit.com/r/wallpapers/top/?t=all'
+INFO: 2024-12-10 21:15:15,274: set_wallpaper() 'Calling set_wallpaper with /home/pawel/.config/variety/Downloaded/reddit_www_reddit_com_r_ultrahdwallpapers_top__t_all/jegn4gr2y6da1.jpg'
+INFO: 2024-12-10 21:15:15,275: prepare_thread() 'Prepared buffer contains 40 images'
+INFO: 2024-12-10 21:15:15,276: do_set_wp() 'Calling do_set_wp with /home/pawel/.config/variety/Downloaded/reddit_www_reddit_com_r_ultrahdwallpapers_top__t_all/jegn4gr2y6da1.jpg, time: 1733861715.276734'
+INFO: 2024-12-10 21:15:15,284: compute_trimmed_offsets() 'Trimmed offsets debug info: w:1920, h:1080, ratio:1.777778, iw:3840, ih:2160, scw:1920, sch:1080, ho:0, vo:0'
+INFO: 2024-12-10 21:15:15,284: build_imagemagick_clock_cmd() 'Applying clock filter: -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:60'` -pointsize 60 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '21:15' -fill white -annotate 0x0+60+110 '21:15' -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:Medium:26'` -pointsize 26 -fill '#00000044' -annotate 0x0+58+58 'wtorek, grudnia 10' -fill white -annotate 0x0+60+60 'wtorek, grudnia 10''
+INFO: 2024-12-10 21:15:15,284: build_imagemagick_clock_cmd() 'ImageMagick clock cmd: convert /home/pawel/.config/variety/Downloaded/reddit_www_reddit_com_r_ultrahdwallpapers_top__t_all/jegn4gr2y6da1.jpg -scale 1920x1080^ -density 100 -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:60'` -pointsize 60 -gravity SouthEast -fill '#00000044' -annotate 0x0+58+108 '21:15' -fill white -annotate 0x0+60+110 '21:15' -font `fc-match -f '%{file[0]}' 'Ubuntu Nerd Font:Medium:26'` -pointsize 26 -fill '#00000044' -annotate 0x0+58+58 'wtorek, grudnia 10' -fill white -annotate 0x0+60+60 'wtorek, grudnia 10' /home/pawel/.config/variety/wallpaper/wallpaper-clock-7f6beaf4a3904dd8cfc744376c75a705.jpg'
+INFO: 2024-12-10 21:15:15,468: update_indicator() 'Setting file info to: /home/pawel/.config/variety/Downloaded/reddit_www_reddit_com_r_ultrahdwallpapers_top__t_all/jegn4gr2y6da1.jpg'
+INFO: 2024-12-10 21:15:15,469: list_files() 'More than 1 files in the folders, stop listing'
+INFO: 2024-12-10 21:15:16,201: download_one() 'Reddit: Queue populated with 93 URLs'
+INFO: 2024-12-10 21:15:16,201: save_locally() 'Origin URL: https://www.reddit.com/r/wallpapers/comments/4d60pu/guard_1920x1080/'
+INFO: 2024-12-10 21:15:16,201: save_locally() 'Image URL: http://i.imgur.com/3w5ryWm.jpg'
+INFO: 2024-12-10 21:15:16,201: save_locally() 'Local path: /home/pawel/.config/variety/Downloaded/reddit_www_reddit_com_r_wallpapers_top__t_all/3w5ryWm.jpg'
+INFO: 2024-12-10 21:15:16,201: save_locally() 'File already exists, skip downloading'
+INFO: 2024-12-10 21:15:17,202: get_throttling() 'Bing: parsing serverside options'
+INFO: 2024-12-10 21:15:17,202: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2024-12-10 21:15:17,202: get_throttling() 'Bing: parsing serverside options'
+INFO: 2024-12-10 21:15:17,202: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2024-12-10 21:15:17,202: download_one() 'Bing: Downloading an image, config: None'
+INFO: 2024-12-10 21:15:17,203: download_one() 'Bing: Queue size: 0'
+INFO: 2024-12-10 21:15:17,203: get_throttling() 'Bing: parsing serverside options'
+INFO: 2024-12-10 21:15:17,203: get_throttling() 'Could not parse Bing serverside options, using defaults None, None'
+INFO: 2024-12-10 21:15:17,203: download_one() 'Bing: Filling queue'
+INFO: 2024-12-10 21:15:17,276: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2024-12-10 21:15:17,277: trigger_download() 'Triggering download thread to check if download needed and possible'
+INFO: 2024-12-10 21:15:17,344: download_one() 'Bing: Queue populated with 8 URLs'
+INFO: 2024-12-10 21:15:17,344: save_locally() 'Origin URL: https://www.bing.com/search?q=Notre-Dame+de+Paris&form=hpcapt&filters=HpDate%3a%2220241208_0800%22'
+INFO: 2024-12-10 21:15:17,344: save_locally() 'Image URL: https://www.bing.com/th?id=OHR.ReopeningNotreDame_EN-US8084146311_UHD.jpg'
+INFO: 2024-12-10 21:15:17,344: save_locally() 'Local path: /home/pawel/.config/variety/Downloaded/Bing/OHR.ReopeningNotreDame_EN-US8084146311_UHD.jpg'
+INFO: 2024-12-10 21:15:17,345: save_locally() 'File already exists, skip downloading'
+INFO: 2024-12-10 21:15:18,346: get_throttling() 'Reddit: parsing serverside options'
+INFO: 2024-12-10 21:15:18,346: get_throttling() 'Could not parse Reddit serverside options, using defaults None, None'
+INFO: 2024-12-10 21:15:18,346: get_throttling() 'Reddit: parsing serverside options'
+INFO: 2024-12-10 21:15:18,346: get_throttling() 'Could not parse Reddit serverside options, using defaults None, None'
+INFO: 2024-12-10 21:15:18,346: download_one() 'Reddit: Downloading an image, config: https://www.reddit.com/r/ultrahdwallpapers/top/?t=all'
+INFO: 2024-12-10 21:15:18,346: download_one() 'Reddit: Queue size: 0'
+INFO: 2024-12-10 21:15:18,346: get_throttling() 'Reddit: parsing serverside options'
+INFO: 2024-12-10 21:15:18,346: get_throttling() 'Could not parse Reddit serverside options, using defaults None, None'
+INFO: 2024-12-10 21:15:18,346: download_one() 'Reddit: Filling queue'
+INFO: 2024-12-10 21:15:18,346: fill_queue() 'Reddit URL: https://www.reddit.com/r/ultrahdwallpapers/top/?t=all'
+INFO: 2024-12-10 21:15:19,780: download_one() 'Reddit: Queue populated with 56 URLs'
+INFO: 2024-12-10 21:15:19,780: save_locally() 'Origin URL: https://www.reddit.com/r/ultrahdwallpapers/comments/10w0xo2/torrent_4k_3840x2160_by_ai/'
+INFO: 2024-12-10 21:15:19,780: save_locally() 'Image URL: https://i.redd.it/8jxpgjbrirga1.jpg'
+INFO: 2024-12-10 21:15:19,780: save_locally() 'Local path: /home/pawel/.config/variety/Downloaded/reddit_www_reddit_com_r_ultrahdwallpapers_top__t_all/8jxpgjbrirga1.jpg'
+INFO: 2024-12-10 21:15:19,780: save_locally() 'File already exists, skip downloading'
+INFO: 2024-12-10 21:15:20,781: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2024-12-10 21:15:20,781: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2024-12-10 21:15:20,781: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2024-12-10 21:15:20,781: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2024-12-10 21:15:20,782: download_one() 'NASA Astro Pic of the Day: Downloading an image, config: None'
+INFO: 2024-12-10 21:15:20,782: download_one() 'NASA Astro Pic of the Day: Queue size: 0'
+INFO: 2024-12-10 21:15:20,782: get_throttling() 'NASA Astro Pic of the Day: parsing serverside options'
+INFO: 2024-12-10 21:15:20,782: get_throttling() 'Could not parse NASA Astro Pic of the Day serverside options, using defaults None, None'
+INFO: 2024-12-10 21:15:20,782: download_one() 'NASA Astro Pic of the Day: Filling queue'
+INFO: 2024-12-10 21:15:20,782: fill_queue() 'Filling APOD queue from Archive'
+INFO: 2024-12-10 21:15:22,752: download_one() 'NASA Astro Pic of the Day: Queue populated with 730 URLs'
+INFO: 2024-12-10 21:15:22,752: download_queue_item() 'APOD URL: https://apod.nasa.gov/apod/ap230710.html'
+INFO: 2024-12-10 21:15:23,230: download_queue_item() 'Image URL: https://apod.nasa.gov/apod/image/2307/NGC6559_Block_1311.jpg'
+INFO: 2024-12-10 21:15:23,230: save_locally() 'Origin URL: https://apod.nasa.gov/apod/ap230710.html'
+INFO: 2024-12-10 21:15:23,230: save_locally() 'Image URL: https://apod.nasa.gov/apod/image/2307/NGC6559_Block_1311.jpg'
+INFO: 2024-12-10 21:15:23,230: save_locally() 'Local path: /home/pawel/.config/variety/Downloaded/nasa_apod/NGC6559_Block_1311.jpg'
+INFO: 2024-12-10 21:15:23,230: save_locally() 'File already exists, skip downloading'
